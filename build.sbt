@@ -1,6 +1,6 @@
 lazy val root = (project in file("."))
 
-val slf4jVersion = "2.0.4"
+val slf4jVersion = "2.0.5"
 
 libraryDependencies ++= Seq(
     "org.slf4j" % "slf4j-api" % slf4jVersion,
